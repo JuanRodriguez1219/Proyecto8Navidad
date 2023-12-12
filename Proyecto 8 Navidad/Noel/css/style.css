@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;/*Establece el area de relleno en los cuatros lados*/
+    box-sizing/*Tamaño de caja*/: border-box;/*Para que los elementos, mantengan su tamaño*/
+}
+
+body {
+    background-color: #53c8dc;/*Establece el color de fondo del cuerpo a un tono de azul*/
+    font-family: 'Times New Roman', Times, serif;
+    /*Define la familia de fuentes para el texto del cuerpo. Se utilizará 'Times New Roman'
+     como primera opción,seguido de la fuente genérica Times y, finalmente, cualquier fuente 
+     serif genérica*/
+    font-size: 35px;
+    /*Establece el tamaño de la fuente del cuerpo a 35 píxeles.*/
+    padding: 4rem;
+    /*ayudar a separar el contenido de los bordes de la ventana del navegador.*/
+}
+
+#titulo{
+    color: #fb4f2b;
+    /*Establece el color del texto del elemento con el ID titulo a un tono de naranja */
+    display: flex;
+    margin: 90px 5px 5px 5px;
+    /*margen superior de 90 píxeles y márgenes derechos, inferiores e izquierdos de 5 píxeles.*/
+    padding-inline-start: 60px;
+    /*establece un relleno de 60 píxeles en el lado izquierdo del contenido del elemento.*/
+}
+
+.espacio{
+    width: 15vh;
+    /*Establece el ancho del elemento a un 15% de la altura de la ventana*/
+    height: 5vh;
+    /*Establece la altura del elemento a un 5% de la altura de la ventana*/
+    border-radius: 3rem;
+    /*Esto da esquinas redondeadas al elemento*/
+    box-shadow: 0px 0px 1px 1px white;
+    /*Agrega una sombra alrededor del elemento*/
+    color:  aliceblue;
+    /*Establece el color del texto del elemento*/
+    font-size: 25px;
+    /*Establece el tamaño de la fuente del texto a 25 píxeles*/
+    padding: 1px;  
+    /*Agrega un relleno*/
+    margin: 1px;  
+    /*Establece una margen */
+    align-items: center;
+    /*Centra los elementos del contenedor flexible*/
+    justify-content: center;
+    /*Centra los elementos del contenedor*/
+    display: inline-flex; 
+}
+
+#cuentaRegresiva {
+    max-width: 400px;
+    /*Establece el ancho máximo del elemento a 400 píxeles.*/
+    align-items: normal;
+    /*Establece la alineación de los elementos secundarios en la dirección normal*/
+    padding: 3px; 
+    /*Agrega un relleno (padding) de 3 píxeles alrededor del contenido del elemento*/
+    display: flex;   
+    /*Sirve para adaptarse a los diferentes dispositivos*/  
+    text-align: center;
+    /*Centra el texto dentro del elemento*/
+    top: 80px;
+    /*Establece la posición superior del elemento a 80 píxeles*/
+}
+
+.dias{
+  color: aliceblue;
+  /*Establece el color del texto*/
+  margin: 35px 35px 30px;
+  /*Establece los márgenes externos de los elementos*/
+}
+
+.papanoelOff{
+    width: 550px;
+    /*Establece el ancho del elemento*/
+    height: 620px;
+    /*Establece la altura del elemento*/
+    background-image: url(../img/Papa_Noel2.png);
+    /*Establece una imagen de fondo para el elemento*/
+    background-repeat: no-repeat;
+    /*Evita que la imagen de fondo se repita*/
+    position: absolute;
+    /*Establece la posición del elemento con respecto a su contenedor*/
+    right: 50px;
+    /*Establece la posición del borde derecho del elemento a 50 píxeles*/
+    top: 70px;   
+    /*Establece la posición del borde superior del elemento a 70 píxeles */ 
+}
+
+.papanoelOff.on{
+    background-image: url(../img/Papa_Noel_gif.gif);
+    /*Establece una imagen de fondo para el elemento*/
+}
+
+#papanoelOnOff{
+    background-color: aliceblue;
+    color: #fb4f2b;
+    width: 100px;
+    height: 30px;
+    font-size: 25px;   
+    border-radius: 5rem;
+    box-shadow: 0px 0px 0px 0px white;
+    left: 110px;   
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    margin: 30px 30px 30px 30px;
+}
+
+#papanoelOnOff1{
+    background-color: aliceblue;
+    color: #fb4f2b;
+    width: 100px;
+    height: 30px;
+    font-size: 25px;   
+    border-radius: 5rem;
+    box-shadow: 0px 0px 0px 0px white;
+    position: absolute;
+    left: 240px; 
+    display: flex; 
+    justify-content: center;
+    text-align: center;
+    margin: 30px 30px 30px 30px; /*Arriba derecha izquierda abajo*/
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
